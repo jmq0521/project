@@ -1,0 +1,1188 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "STSongti-SC-Regular";
+}
+html{font-size: 13.33vw;}
+body{padding-bottom: 1.5rem;}
+
+
+.active{
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+
+
+/* ---------------------------------简介------------------------- */
+
+#intro{
+    width: 100%;
+    height: 13.5rem;
+    background: url(../image/intro.png) no-repeat;
+    background-size: cover;
+    float: left;
+    position: relative;
+}
+#intro .intro{
+    width: 6.6rem;
+    height: 12.06rem;
+    margin: 0.61rem 0.4rem;
+    float: left;
+    border:8px solid rgba(255,255,255,0.3);
+}
+#intro .intro h4{
+    font-size:0.28rem;
+    font-weight:normal;
+    color:#fff;
+    text-indent: 0.31rem;
+    margin-top: 0.38rem;
+}
+#intro .intro  mark{
+    font-size:0.14rem;
+    color:#fff;
+    text-indent: 0.31rem;
+    margin-top: 0.03rem;
+    letter-spacing: 0.06rem;
+    display: block;
+    background: none;
+}
+#intro .intro #title{
+    width:100%;
+    background: url('../image/seck-bj.png');
+    margin-top: 1.13rem;
+    padding-top: 0.12rem;
+    padding-bottom: 0.2rem;
+    box-sizing: border-box;
+}
+#intro .intro #title p:nth-of-type(1){
+    font-size:0.55rem;
+    text-align: center;
+    color: #fff;
+    font-weight:bold;
+}
+#intro .intro #title p:nth-of-type(2){
+    font-size:0.6rem;
+    text-align: center;
+    color: #fff;
+    margin-top: 0.05rem;
+}
+#intro .intro span{
+    font-size:0.94rem;
+    font-weight:bold;
+    color:#fff;
+    text-shadow:0px 4px 4px rgba(45,170,237,0.75);
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 0.4rem;
+}
+#intro .intro #btn{
+    width:2.98rem;
+    height:0.38rem;
+    line-height: 0.38rem;
+    border:2px solid rgba(0, 0, 0, 0.7);
+    margin:1.6rem auto;
+    margin-bottom: 0;
+    color:rgba(11,94,134,1);
+    font-size: 0.22rem;
+    text-indent: 0.08rem;
+}
+#intro .intro #btn strong{
+    width:1.27rem;
+    height:0.38rem;
+    color:#fff;
+    background: #00547C;
+    float: right;
+    text-align: center;
+    font-size: 0.23rem;
+    font-weight: normal;
+}
+#intro .intro #box{
+    width:3.74rem;
+    height:0.42rem;
+    font-size:0.17rem;
+    font-family:FZLTXHK--GBK1-0;
+    font-weight:200;
+    color:rgba(11,94,134,1);
+    margin:1.8rem auto;
+    margin-bottom: 0;
+    text-align: center;
+}
+#intro .intro img{
+    position: absolute;
+    top: 0.1rem;
+    right: 0.1rem;
+}
+
+/* ---------------------------------秒杀------------------------- */
+#seck{float: left;width: 100%;}
+#seck #seck-head{
+    width: 100%;
+    height: 1.5rem;
+    background: #27626F;
+}
+#seck-head #img1{float: left;margin: 0.02rem 0 0 1.24rem;}
+#seck-head #img2{float: right;margin: 0.02rem 1.24rem 0 0;}
+#seck-head h4{
+    width: 100%;
+    font-size:0.42rem;
+    font-weight:800;
+    color:rgba(255,255,255,1);
+    text-align: center;
+    float: left;
+    margin-top: 0.25rem;
+}
+#seck-head #span{
+    width: 100%;
+    font-size:0.26rem;
+    font-weight:600;
+    color:rgba(255,255,255,1);
+    text-align: center;
+    float: left;
+    letter-spacing: 0.03rem;
+}
+
+#seck .seck{
+    width: 100%;
+    min-height: 5rem;
+    background: url(../image/sec.png) no-repeat;
+    background-size: cover;
+    float: left;
+}
+#seck .seck #seck-box{
+    width: 6.6rem;
+    margin: 0.77rem 0.4rem;
+    float: left;
+    border:8px solid rgba(255,255,255,0.3);
+}
+#seck .seck #seck-box #title{
+    width:100%;
+    height:2.3rem;
+    background: url('../image/seck-bj.png');
+    padding-top: 0.12rem;
+    box-sizing: border-box;
+}
+#seck .seck #seck-box #title p:nth-of-type(1){
+    font-size:0.6rem;
+    text-align: center;
+    color: #fff;
+}
+#seck .seck #seck-box #title p:nth-of-type(2){
+    font-size:0.9rem;
+    text-align: center;
+    color: #fff;
+    margin-top: -0.05rem;
+    font-weight:bold;
+}
+#seck .seck #seck-box span{
+    font-size:1.2rem;
+    font-weight:800;
+    color:#fff;
+    text-shadow:0px 19px 20px rgba(130,130,130,0.75);
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: -0.1rem;
+}
+#seck .seck #seck-box span strong{
+    font-size: 1.1rem;
+    color: #fff;
+    display: inline-block;
+}
+#seck .seck #seck-box mark{
+    font-size:0.4rem;
+    font-weight:600;
+    color:#fff;
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: none;
+    margin-top: 0.2rem;
+}
+#seck .seck #seck-box #award{
+    width:5.3rem;
+    height:1.06rem;
+    line-height: 1.06rem;
+    background:rgba(0,0,0,0.1);
+    border-radius:0.53rem;
+    margin: 0.15rem auto;
+    margin-bottom: 0;
+    font-size: 0.23rem;
+}
+#seck .seck #seck-box #award em{
+    float: left;
+    text-indent: 0.3rem;
+    color: #fff;
+    font-size: 0.24rem;
+    font-style: normal;
+    line-height: 1.06rem;
+}
+#seck .seck #seck-box #award p{
+    width: 3.7rem;
+    height: 100%;
+    float: left;
+    color: #fff;
+    padding: 0.2rem 0 0.2rem 0.2rem;
+    line-height: 0.38rem;
+    box-sizing: border-box;
+    font-size: 0.28rem;
+
+}
+#seck .seck #seck-box #award img{
+    width: 1.06rem;
+    height: 1.06rem;
+    float: right;
+    border-radius: 50%;
+}
+
+#seck .seck #seck-box #btn{
+    width:4rem;
+    height:0.84rem;
+    line-height: 0.84rem;
+    border:5px solid rgba(255,255,255,1);
+    border-radius:0.42rem;
+    margin: 0.55rem auto;
+    font-weight: 600;
+    color: #fff;
+    font-size: 0.4rem;
+    text-align: center;
+    text-shadow:0px 10px 20px rgba(102,102,102,0.75);
+}
+#seck .seck #seck-box #box{
+    width: 5.3rem;
+    height: 0.79rem;
+    margin: 0.85rem auto;
+}
+#seck .seck #seck-box #box #p-box{
+    width: 100%;
+    background:none;
+    margin: -20px auto;
+    color: #fff;
+    font-size: 0.25rem;
+    text-align: center
+}
+
+#seck .seck #seck-box #box #img{
+    width: 100%;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    margin: 0.2rem auto;
+    text-align: center;
+}
+#seck .seck #seck-box #box #img img{
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    margin-left: -0.45rem;
+}
+#seck .seck #seck-box #box #img img:nth-of-type(1){margin-left: 0rem;}
+/* ---------------------------------分销------------------------- */
+#dis{float: left;width: 100%;}
+#dis #dis-head{
+    width: 100%;
+    height: 1.5rem;
+    background: #27626F;
+}
+#dis-head #img1{float: left;margin: 0.02rem 0 0 1.24rem;}
+#dis-head #img2{float: right;margin: 0.02rem 1.24rem 0 0;}
+#dis-head h4{
+    width: 100%;
+    font-size:0.42rem;
+    font-weight:800;
+    color:rgba(255,255,255,1);
+    text-align: center;
+    float: left;
+    margin-top: 0.25rem;
+}
+#dis-head #span{
+    width: 100%;
+    font-size:0.26rem;
+    font-weight:600;
+    color:rgba(255,255,255,1);
+    text-align: center;
+    float: left;
+    letter-spacing: 0.03rem;
+}
+
+#dis .dis{
+    width: 100%;
+    height: 14rem;
+    background: url(../image/diss.png) no-repeat;
+    background-size: cover;
+    float: left;
+} 
+#dis .dis #dis-box{
+    width: 6.6rem;
+    height: 12.06rem;
+    margin: 0.77rem 0.4rem;
+    float: left;
+    border:8px solid rgba(255,255,255,0.3);
+}
+#dis .dis #dis-box #title{
+    width:100%;
+    height:1.82rem;
+    line-height: 1.82rem;
+    background: url(../image/dis-bj.png);
+}
+#dis .dis #dis-box #title p{
+    font-size:0.9rem;
+    text-align: center;
+    color: #fff;
+}
+#dis .dis #dis-box #img{
+    width: 4.81rem;
+    height: 3.09rem;
+    margin: 0.9rem auto;
+    margin-bottom: 0;
+    display: block;
+}
+#dis .dis #dis-box #ince{
+    width: 5.3rem;
+    height: 1.06rem;
+    line-height: 1.06rem;
+    background:rgba(0,0,0,0.1);
+    border-radius:0.53rem;
+    margin: 1.5rem auto;
+    margin-bottom: 0;
+    font-size: 0.3rem;
+    color: #fff;
+    text-align:center;
+}
+#dis .dis #dis-box #ince:nth-of-type(3){margin: 0.2rem auto;margin-bottom: 0;}
+#dis .dis #dis-box #box{
+    width:4.37rem;
+    height:0.54rem;
+    font-size:0.2rem;
+    font-weight:200;
+    color:#fff;
+    margin:1.3rem auto;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+/* ---------------------------------分享------------------------- */
+#share{float: left;width: 100%;}
+#share #share-head{
+    width: 100%;
+    height: 1.5rem;
+    background: #27626F;
+}
+#share-head #img1{float: left;margin: 0.02rem 0 0 1.24rem;}
+#share-head #img2{float: right;margin: 0.02rem 1.24rem 0 0;}
+#share-head h4{
+    width: 100%;
+    font-size:0.42rem;
+    font-weight:800;
+    color:rgba(255,255,255,1);
+    text-align: center;
+    float: left;
+    margin-top: 0.25rem;
+}
+#share-head #span{
+    width: 100%;
+    font-size:0.26rem;
+    font-weight:600;
+    color:rgba(255,255,255,1);
+    text-align: center;
+    float: left;
+    letter-spacing: 0.03rem;
+}
+
+#share .share{
+    width: 100%;
+    height: 5.87rem;
+    background: url(../image/share.png) no-repeat;
+    background-size: cover;
+    float: left;
+} 
+#share .share #share-box{
+    width: 5.85rem;
+    height: 4.16rem;
+    margin: 0.85rem 0.825rem;
+    float: left;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 10px 20px 0px rgba(102,102,102,0.1);
+    border-radius:10px;
+}
+
+#share .share #share-box #S-box{
+    width: 5.64rem;
+    height: 3.98rem;
+    margin: 0.1rem auto;
+    border-radius: 10px;
+    display: block;
+    position: relative;
+}
+#share .share #share-box #S-box #img{
+    width: 100%;
+    height: 3.11rem;
+}
+#share .share #share-box #S-box #S-open{
+    width: 100%;
+    height: 3.11rem;
+    background: #000;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+}
+#share .share #share-box #S-box #S-open img:nth-of-type(1){
+    /* margin: 0.5rem 0 0 2.5rem; */
+    display: block;
+    margin: 0.5rem auto;
+}
+/* #share .share #share-box #S-box #S-open img:nth-of-type(2){
+    margin: 0.5rem 0 0 -0.68rem;
+    display: inline-block;
+} */
+#share .share #share-box #S-box #S-open img:nth-of-type(3){
+    margin: 0.2rem auto;
+    display: block;
+}
+#share .share #share-box #S-box #S-open p{
+    width: 2.75rem;
+    margin: 0.1rem auto;
+    color: #FFF;
+    font-size: 0.18rem;
+    text-align: center;
+    font-weight: bold;
+}
+#share .share #share-box #S-box #S-open p span{font-weight:normal;}
+#share .share #share-box #S-box #S-open p:nth-of-type(2){
+    width: 3rem;
+    margin: 0.1rem auto;
+    color: #FFF;
+    font-size: 0.18rem;
+    text-align: center;
+}
+
+#share .share #share-box #S-box #S-intro{
+    width: 100%;
+    height: 0.87rem;
+    background: #000;
+    float: left;
+    margin-top: -0.28rem;
+
+}
+#share .share #share-box #S-box #S-intro #ul{
+    width: 100%;
+    float: left;
+}
+#share .share #share-box #S-box #S-intro #ul li{
+    list-style: none;
+    float: left;
+    width: 50%;
+    color: #fff;
+    font-size: 0.24rem;
+    text-indent: 0.5rem;
+    margin-top: 0.1rem;
+}
+
+
+/* ---------------------------------倒计时------------------------- */
+#time{float: left;width: 100%;}
+#time #time-head{
+    width: 100%;
+    height: 1.5rem;
+    background: #27626F;
+}
+#time-head #img1{float: left;margin: 0.02rem 0 0 1.24rem;}
+#time-head #img2{float: right;margin: 0.02rem 1.24rem 0 0;}
+#time-head h4{
+    width: 100%;
+    font-size:0.42rem;
+    font-weight:800;
+    color:rgba(255,255,255,1);
+    text-align: center;
+    float: left;
+    margin-top: 0.25rem;
+}
+#time-head #span{
+    width: 100%;
+    font-size:0.26rem;
+    font-weight:600;
+    color:rgba(255,255,255,1);
+    text-align: center;
+    float: left;
+    letter-spacing: 0.03rem;
+}
+#time .time{
+    width: 100%;
+    height: 3.95rem;
+    background: url(../image/time.png) no-repeat;
+    background-size: cover;
+    float: left;
+}
+#time #time-box{
+    width: 6.08rem;
+    height: 2.67rem;
+    margin: 0.64rem auto;
+    background:rgba(255,255,255,1);
+    border-radius:10px;
+}
+#time-box p{
+    width: 100%;
+    font-size: 0.28rem;
+    color: #000;
+    text-align: center;
+    margin-top: 0.5rem;
+    float: left;
+    font-weight: bold;
+}
+#time-box p span{
+    height: 0.58rem;
+    line-height: 0.58rem;
+    display: inline-block;
+    margin: 0 0.1rem 0 0.1rem;
+    background: #DB5560;
+    border-radius: 0.04rem;
+    color: #fff;
+    padding: 0 0.05rem;
+    box-sizing: border-box;
+}
+#time-box #S-plan{
+    width: 80%;
+    height: 0.27rem;
+    border: 1px solid #FF533D;
+    margin: 0.34rem 10%;
+    border-radius: 7px;
+}
+#time-box #S-plan span{
+    height: 100%;
+    width:75%;
+    background: #DB5560;
+    margin:0;
+    display: block;
+}
+#time-box #ul-li{
+    width: 100%;
+    float: left;
+}
+#time-box #ul-li li{
+    list-style: none;
+    float: left;
+    width: 33%;
+    color: #333;
+    font-size: 0.28rem;
+    text-align: center;
+}
+#time-box #ul-li li a{color: #DB5560}
+
+
+/* ---------------------------------购买列表------------------------- */
+#pur{float: left;width: 100%;}
+#pur #pur-head{
+    width: 100%;
+    height: 1.5rem;
+    background: #27626F;
+}
+#pur-head #img1{float: left;margin: 0.02rem 0 0 1.24rem;}
+#pur-head #img2{float: right;margin: 0.02rem 1.24rem 0 0;}
+#pur-head h4{
+    width: 100%;
+    font-size:0.42rem;
+    font-weight:800;
+    color:rgba(255,255,255,1);
+    text-align: center;
+    float: left;
+    margin-top: 0.25rem;
+}
+#pur-head #span{
+    width: 100%;
+    font-size:0.26rem;
+    font-weight:600;
+    color:rgba(255,255,255,1);
+    text-align: center;
+    float: left;
+    letter-spacing: 0.03rem;
+}
+#pur .pur{
+    width: 100%;
+    height: 6.29rem;
+    background: url(../image/entre.png) no-repeat;
+    background-size: cover;
+    float: left;
+}
+#pur .pur #pur-box{
+    width: 6.08rem;
+    height: 4.55rem;
+    overflow: auto;
+    margin: 0.87rem auto;
+    background:rgba(255,255,255,1);
+    border-radius:10px;
+}
+#pur .pur #pur-box #img{
+    float: left;
+    text-align: center;
+    width: 25%;
+    height: 1.8rem;
+    margin-top: 0.2rem;
+}
+#pur .pur  #pur-box #img img{
+    height: 0.8rem;
+    width: 0.8rem;
+}
+#pur .pur #pur-box #img mark{
+    width: 100%;
+    color: #CDCDCD;
+    margin-top:0.01rem;
+    margin-bottom: 0;
+    font-size: 0.16rem;
+    display: block;
+	background: #fff;
+}
+
+#pur .pur  #pur-box #img mark:nth-of-type(1){font-size: 0.18rem;color: #333;margin-top: -0.1rem;white-space: nowrap;overflow: hidden;text-overflow: ellipsis}
+
+/* ---------------------------------企业介绍------------------------ */
+#entre{float: left;width: 100%;}
+#entre #entre-head{
+    width: 100%;
+    height: 1.5rem;
+    background: #27626F;
+}
+#entre-head #img1{float: left;margin: 0.02rem 0 0 1.24rem;}
+#entre-head #img2{float: right;margin: 0.02rem 1.24rem 0 0;}
+#entre-head h4{
+    width: 100%;
+    font-size:0.42rem;
+    font-weight:800;
+    color:rgba(255,255,255,1);
+    text-align: center;
+    float: left;
+    margin-top: 0.25rem;
+}
+#entre-head #span{
+    width: 100%;
+    font-size:0.26rem;
+    font-weight:600;
+    color:rgba(255,255,255,1);
+    text-align: center;
+    float: left;
+    letter-spacing: 0.03rem;
+}
+#entre .entre{
+    width: 100%;
+    min-height: 5rem;
+    padding-bottom: 1rem;
+    max-height: 12rem;
+    background: url(../image/entre.png) no-repeat;
+    background-size: cover;
+    float: left;
+}
+#entre .entre #entre-box{
+    width:7.34rem;
+    margin: 0.44rem auto;
+    margin-bottom: 0;
+    overflow: hidden;
+
+}
+#entre .entre #entre-box h5{
+    width: 100%;
+    font-size:0.9rem;
+    font-weight:800;
+    color:rgba(254,254,255,1);
+    text-align: center;
+    margin-top: 0.65rem;
+}
+#entre .entre #entre-box p{
+    width: 5.3rem;
+    color:rgba(254,254,255,1);
+    margin: 0.5rem auto;
+    font-size: 0.22rem;
+    line-height: 0.3rem;
+    letter-spacing: 0.012rem;
+    font-weight: bold;
+}
+#entre .entre #entre-img{
+    width: 5.3rem;
+    margin: 0.5rem auto;
+}
+#entre .entre #entre-img img:nth-of-type(1){
+    width:2.52rem;
+    height:2rem;
+    background:rgba(255,255,255,1);
+    border-radius:10px;
+}
+#entre .entre #entre-img img:nth-of-type(2){
+    width:2.52rem;
+    height:1.67rem;
+    background:rgba(255,255,255,1);
+    border-radius:10px;
+    margin-left: 0.25rem;
+    float: right;
+}
+#entre .entre #entre-img img:nth-of-type(3){
+    width:2.52rem;
+    height:1.47rem;
+    background:rgba(255,255,255,1);
+    border-radius:10px;
+    display: inline-block;
+}
+#entre .entre #entre-img img:nth-of-type(4){
+    width:2.52rem;
+    height:2.42rem;
+    background:rgba(255,255,255,1);
+    border-radius:10px;
+    float: right;
+    margin: -0.3rem 0 0 0.25rem;
+}
+#entre .entre #entre-img img:nth-of-type(5){
+    width:2.52rem;
+    height:1.95rem;
+    background:rgba(255,255,255,1);
+    border-radius:10px;
+    float: left;
+}
+#entre .entre #entre-img img:nth-of-type(6){
+    width:2.52rem;
+    height:1.33rem;
+    background:rgba(255,255,255,1);
+    border-radius:10px;
+    float: left;
+    margin: 0.25rem 0 0 0.25rem;
+}
+
+/* ---------------------------------活动地址------------------------ */
+#addre{float: left;width: 100%;}
+#addre #addre-head{
+    width: 100%;
+    height: 1.5rem;
+    background: #27626F;
+}
+#addre-head #img1{float: left;margin: 0.02rem 0 0 1.24rem;}
+#addre-head #img2{float: right;margin: 0.02rem 1.24rem 0 0;}
+#addre-head h4{
+    width: 100%;
+    font-size:0.42rem;
+    font-weight:800;
+    color:rgba(255,255,255,1);
+    text-align: center;
+    float: left;
+    margin-top: 0.25rem;
+}
+#addre-head #span{
+    width: 100%;
+    font-size:0.26rem;
+    font-weight:600;
+    color:rgba(255,255,255,1);
+    text-align: center;
+    float: left;
+    letter-spacing: 0.03rem;
+}
+#addre .addre{
+    width: 100%;
+    height: 7.6rem;
+    background: url(../image/addre.png) no-repeat;
+    background-size: cover;
+    float: left;
+}
+#addre .addre #addre-box{
+    width:5.85rem;
+    height:3.62rem;
+    margin: 0.54rem auto;
+    margin-bottom: 0;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 10px 20px 0px rgba(102,102,102,0.1);
+    border-radius:10px;
+    position: relative;
+}
+#addre-box #map{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    opacity: 0.1;
+    position: absolute;
+    bottom: 0;
+}
+#addre p{
+    width: 100%;
+    color: #fff;
+    font-size: 0.22rem;
+    text-indent: 0.8rem;
+    margin-top: 0.15rem;
+    font-weight: bold;
+}
+
+/* ---------------------------------底部按钮------------------------ */
+#button{float: left;width: 100%; position: fixed;bottom: 0;}
+#button #button-head{
+    width: 100%;
+    height: 1.5rem;
+    padding: 0.21rem 0.95rem;
+    box-sizing: border-box;
+    background: #27626F;
+}
+#button-head .btn{
+    width:1.01rem;
+    height:1.01rem;
+    border:2px solid rgba(255,255,255,1);
+    border-radius:50%;
+    color: #fff;
+    font-size:0.22rem;
+    float: left;
+    margin-left: 1.25rem;
+    padding: 0.23rem 0.24rem;
+    box-sizing: border-box;
+}
+#button-head .btn:nth-child(1){margin-left: 0;}
+
+
+
+
+
+/* =========================立即购买----------------- */
+#contact{
+    height: 5.2rem;
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    bottom:0rem;
+    z-index: 99999;
+    left: 0;
+    border-radius:10px;
+    display: none;
+}
+
+#contact i{
+    float: right;
+    font-size: 0.35rem;
+    color: #CCC;
+    font-style: normal;
+    margin-right: 0.2rem;
+}
+#contact p{
+    width: 100%;
+    font-size: 0.32rem;
+    color: #666;
+    margin-top: 0.5rem;
+    text-indent: 0.4rem;
+    display: block;
+}
+#contact input{
+    width: 6.9rem;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    display: block;
+    margin: 0.5rem auto;
+    font-size: 0.28rem;
+    color: #CCC;
+    text-indent: 0.3rem;
+    background: #F4F4F4;
+    border: none;
+    border-radius:10px;
+}
+
+#contact #but{
+    width: 100%;
+    height:1.02rem;
+    line-height: 1.02rem;
+    background:rgba(239,135,66,1);
+    box-shadow:0px -2px 8px 0px rgba(0,0,0,0.05);
+    text-align: center;
+    font-size: 0.32rem;
+    color: #fff;
+}
+
+/*-----------------------------------遮罩 ----------------------*/
+.zhezhao{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    opacity: 0.6;
+    /* display: none; */
+    z-index: 0;
+  }
+
+
+ /* ------------------------固定按钮----------------- */
+aside{width: 1rem; max-height: 4.5rem;border-radius: 60px; position: fixed;right: 0.2rem;top: 7.1rem;background:rgba(255,255,255,0.3);display: none;}
+aside #side1{
+    width:1rem;
+    height:1rem;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 10px 20px 0px rgba(102,102,102,0.3);
+    border-radius:50%;
+    font-size: 0.24rem;
+    padding: 0.1rem 0.24rem;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    z-index: 2;
+}
+aside #side1 img{
+    width: 0.53rem;
+    height: 0.53rem;
+    float: left;
+    border-radius: 50%;
+}
+aside #side1  p{
+    font-size:0.2rem;
+    font-weight:600;
+    color:rgba(153,153,153,1);
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+
+aside #side{
+    width:1rem;
+    height:1rem;
+    font-size: 0.24rem ;
+    padding: 0.1rem 0.28rem;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    z-index: 2;
+    margin-top: 0.2rem
+}
+aside #side img{
+    width: 0.42rem;
+    height: 0.42rem;
+    float: left;
+}
+aside #side  p{
+    font-size:0.2rem;
+    color:#fff;
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin-top: 0.1rem;
+}
+
+
+
+#sid{
+    width:1rem;
+    height:1rem;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 10px 20px 0px rgba(102,102,102,0.3);
+    border-radius:50%;
+    position: fixed;
+    right: 0.2rem;
+    top: 9.5rem;
+    font-size: 0.24rem ;
+    padding: 0.1rem 0.24rem;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    z-index: 0;
+}
+#sid img{
+    width: 0.53rem;
+    height: 0.53rem;
+    float: left;
+    border-radius: 50%;
+}
+#sid  p{
+    font-size:0.2rem;
+    font-weight:600;
+    color:rgba(153,153,153,1);
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+
+
+
+/* -------------------------------商家核销----------------- */
+#cancel{
+    width: 100%;
+    height: 6.5rem;
+    background: none;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 99999;
+    display: none;
+}
+
+#cancel .cancel{
+    width:6.04rem;
+    height:6.1rem;
+    background:rgba(253,254,255,1);
+    border-radius:24px;
+    margin: 0.2rem 0.74rem;
+    float: left;
+    position: relative;
+}
+.cancel .img{
+    width: 100%;
+    display: block;
+    margin-top: -1rem;
+}
+.cancel #img{
+    position: absolute;
+    top: -0.5rem;
+    right: -0.5rem;
+}
+.cancel h4{
+    width: 100%;
+    margin: 0.5rem auto;
+    text-align: center;
+    font-size: 0.32rem;
+    color: #FB8C3C;
+}
+.cancel input{
+    width: 5.07rem;
+    height: 0.63rem;
+    line-height: 0.63rem;
+    display: block;
+    margin: 0.5rem auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 0.24rem;
+    color: #CCC;
+    text-indent: 0.3rem;
+    background:#FFFBF5;
+    border:1px solid rgba(250,169,62,1);
+    border-radius:10px;
+}
+.cancel #ver{
+    width: 5.07rem;
+    height:0.63rem;
+    line-height: 0.63rem;
+    text-align: center;
+    font-size: 0.32rem;
+    color: #fff;
+    background:linear-gradient(0deg,rgba(251,139,60,1),rgba(255,183,85,1));
+    border-radius:10px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+    margin: 0.35rem auto;
+}
+
+/* -------------------------------商家二维码----------------- */
+#code{
+    width: 100%;
+    height: 7.7rem;
+    background: none;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 99999;
+    display: none;
+}
+
+#code .code{
+    width:6.04rem;
+    height:7.4rem;
+    background:rgba(253,254,255,1);
+    border-radius:24px;
+    margin: 0.2rem 0.74rem;
+    float: left;
+    position: relative;
+}
+.code .img{
+    width: 100%;
+    display: block;
+    margin-top: -1rem;
+}
+.code #img{
+    position: absolute;
+    top: -0.5rem;
+    right: -0.5rem;
+}
+.code h4{
+    width: 100%;
+    margin: 0.5rem auto;
+    text-align: center;
+    font-size: 0.32rem;
+    color: #FB8C3C;
+}
+.code p{
+    width: 100%;
+    margin: 0.4rem auto;
+    font-size: 0.32rem;
+    color: #666;
+    padding: 0 0.72rem;
+    box-sizing: border-box;
+}
+.code  #code-img{
+    width: 2.0rem;
+    height: 2.05rem;
+    display: block;
+    margin: 0.2rem auto;
+}
+
+/* -------------------------------红包弹框----------------- */
+#pack{
+    width: 100%;
+    height: 6.8rem;
+    background: none;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 99999;
+    /* display: none; */
+}
+
+#pack .pack{
+    width:6.05rem;
+    height:6.6rem;
+    background:url('../image/pack-bj.png') no-repeat;
+    background-size: cover;
+    border-radius:24px;
+    margin: 0.2rem 0.74rem;
+    float: left;
+    position: relative;
+}
+#pack .pack p{
+    width: 100%;
+    text-align: center;
+    font-size: 0.32rem;
+    color: #FD144B;
+    margin-top: 2rem;
+}
+#pack .pack #btn{
+    width: 3.37rem;
+    height:0.76rem;
+    line-height: 0.76rem;
+    text-align: center;
+    font-size: 0.32rem;
+    color: #fff;
+    background:rgba(255,175,0,1);
+    box-shadow:0px 7px 27px 5px rgba(124, 2, 0, 0.35);
+    
+    border-radius:50px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+    margin: 2.75rem auto;
+    margin-bottom: 0;
+}
+#pack .pack #img{
+    position: absolute;
+    top: -0.5rem;
+    right: -0.5rem;
+}
+
+/* ----------------音乐播放----------------- */
+#music-btn{
+    animation: xzql 5s linear 1s infinite;
+    position: fixed;
+    top: 0.3rem;
+    right: 0.3rem;
+    background:url("../image/music.png");
+    background-size: cover;
+    height:0.6rem;
+    width: 0.6rem;
+}
+
+
+#music{
+    width:0;
+    height:0;
+    overflow: hidden;
+}
+
+@keyframes xzql{
+    from { transform: rotate(0deg)}
+    to{transform: rotate(360deg)}
+}

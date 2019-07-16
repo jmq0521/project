@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+}
+html{font-size: 13.33vw}
+
+.group{
+    width: 100%;
+    min-height: 10rem;
+    background:#5759F1;
+    overflow: hidden;
+    padding-bottom: 0.3rem;
+}
+/* ----------------------标题------------------------------- */
+.group .head{
+    width: 100%;
+    height: 6.9rem;
+    background: url("../image/title-bj.png") no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    box-shadow:0px 4px 10px 0px rgba(0,0,0,0.2);
+}
+.group .head .title {
+    width: 100%;
+    text-align: center;
+    font-size: 0.32rem;
+    color: #2F2CD8;
+    margin-top: 0.65rem;
+}
+.group .head .title img{vertical-align: middle;}
+.group .head .title span{margin: 0 0.2rem 0 0.2rem;}
+
+
+
+/* --------------------------商品信息------------------------ */
+.group .good{
+    width: 95%;
+    height: 3rem;
+    background: #fff;
+    border-radius: 16px;
+    margin: 0 auto;
+    box-shadow:0px 4px 10px 0px rgba(0,0,0,0.2);
+}
+.group .good .name{
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    font-size: 0.32rem;
+    padding: 0 1.1rem;
+    box-sizing: border-box;
+}
+.group .good .name span{
+    width: 2.55rem;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #FF001F;
+    float: left;
+}
+.group .good .name em{
+    color: .000;
+    float: left;
+    font-style: normal;
+}
+
+.group .good .info{
+    width: 100%;
+    height: 1.6rem;
+    font-size: 0.26rem;
+    padding: 0 0.46rem;
+    box-sizing: border-box;
+}
+.group .good .info img{
+    width: 1.6rem;
+    height: 1.6rem;
+    background: #D8D8D8;
+    float: left;
+}
+.group .good .info p{
+    width: 4.25rem;
+    color: #4A4A4A;
+    float: left;
+    margin-left: 0.2rem;
+}
+.group .good .info span{
+    color: #FF001F;
+    font-size: 0.28rem;
+    margin: 0.48rem 0 0 0.2rem;
+    float: left;
+}
+.group .good .info em{
+    color: #FF001F;
+    font-size: 0.28rem;
+    margin: 0.48rem 0 0 0rem;
+    float: right;
+    font-style: normal;
+}
+
+/* --------------------------开团------------------------ */
+.group .open{
+    width: 95%;
+    height: 3.25rem;
+    background: #fff;
+    border-radius: 16px;
+    margin: 0.2rem auto;
+    box-shadow:0px 4px 10px 0px rgba(0,0,0,0.2);
+}
+.group .open .open-img{
+    width: 100%;
+    height: 1.5rem;
+    padding-top: 0.3rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+.group .open .open-img img{
+    width: 0.98rem;
+    height: 0.98rem;
+    border-radius: 50%;
+    background: #D8D8D8;
+    margin-left: -0.55rem;
+    border:2px solid rgba(255,0,31,1);
+}
+.group .open .open-img img:nth-of-type(1){margin-left: 0rem;}
+.group .open p{
+    width: 100%;
+    color: .4A4A4A;
+    font-size: 0.24rem;
+    text-align: center;
+}
+.group .open .btn{
+    width:5.35rem;
+    height:0.8rem;
+    line-height: 0.8rem;
+    background:linear-gradient(360deg,rgba(255,146,147,1) 0%,rgba(255,89,90,1) 100%);
+    border-radius:50px;
+    margin: 0.3rem auto;
+    font-size: 0.28rem;
+    color: #fff;
+    text-align: center;
+}
+
+/* --------------------------未开团------------------------ */
+.group .off{
+    width: 95%;
+    height: 2.7rem;
+    background: #fff;
+    border-radius: 16px;
+    margin: 0.2rem auto;
+    box-shadow:0px 4px 10px 0px rgba(0,0,0,0.2);
+}
+.group .off .off-img{
+    width: 100%;
+    height: 1.5rem;
+    padding-top: 0.3rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+.group .off .off-img img{
+    width: 0.98rem;
+    height: 0.98rem;
+    border-radius: 50%;
+    background: #D8D8D8;
+    margin-left: -0.55rem;
+    border:2px solid rgba(255,0,31,1);
+}
+.group .off .off-img img:nth-of-type(1){margin-left: 0rem;}
+.group .off .btn{
+    width:5.35rem;
+    height:0.8rem;
+    line-height: 0.8rem;
+    background:linear-gradient(360deg,rgba(255,146,147,1) 0%,rgba(255,89,90,1) 100%);
+    border-radius:50px;
+    margin: 0.1rem auto;
+    font-size: 0.28rem;
+    color: #fff;
+    text-align: center;
+}
+
+/* --------------------------步骤------------------------ */
+.group .step{
+    width: 95%;
+    height: 3rem;
+    background: #fff;
+    border-radius: 16px;
+    margin: 0.2rem auto;
+    background: url('../image/step.png') no-repeat;
+    background-size: cover;
+    box-shadow:0px 4px 10px 0px rgba(0,0,0,0.2);
+}
+
+/* --------------------------优惠------------------------ */
+.group .dis{
+    width: 95%;
+    height: 4.3rem;
+    background: #fff;
+    border-radius: 16px;
+    margin: 0.2rem auto;
+    box-shadow:0px 4px 10px 0px rgba(0,0,0,0.2);
+}
+.group .dis h5{
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    color: #FF001F;
+    font-size: 0.32rem;
+    text-align: center;
+}
+.group .dis .sth{
+    width:5.35rem;
+    height:0.8rem;
+    line-height: 0.8rem;
+    background:linear-gradient(360deg,rgba(255,146,147,1) 0%,rgba(255,89,90,1) 100%);
+    border-radius:50px;
+    margin: 0.15rem auto;
+    font-size: 0.28rem;
+    text-align: center;
+    color: #FFF;
+}
+.group .dis span{
+    width:2.1rem;
+    height:0.78rem;
+    line-height: 0.78rem;
+    background:#FCF2EA;
+    border-radius:50px;
+    float: left;
+    color: #FF001F;
+    text-align: center; 
+    font-size: 0.28rem;
+}
+
+/* --------------------------拼团------------------------ */
+.group .puzz{
+    width: 95%;
+    height: 4.1rem;
+    background: #fff;
+    border-radius: 16px;
+    margin: 0.2rem auto;
+    overflow: auto;
+    box-shadow:0px 4px 10px 0px rgba(0,0,0,0.2);
+}
+.group .puzz h4{
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    color: #FF001F;
+    font-size: 0.31rem;
+    text-align: center;
+}
+.group .puzz .puzz-img{
+    width: 100%;
+    max-height: 3rem;
+    overflow: auto;
+}
+.group .puzz .puzz-img .img{
+    width: 100%;
+    height: 1.3rem;
+    padding: 0 0.4rem;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 0.15rem;
+}
+.group .puzz .puzz-img .img img{
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 50%;
+    background: #D8D8D8;
+    float: left;
+    border: 2px solid rgba(255,0,31,1);
+    margin-top: 0.1rem;
+} 
+.group .puzz .puzz-img .img mark{
+    display: block;
+    width:0.9rem;
+    height: 0.34rem;
+    line-height: 0.34rem;
+    border-radius: 30px;
+    background: #FF001F;
+    position: absolute;
+    left: 0.52rem;
+    bottom: 0.05rem;
+    font-size: 0.24rem;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+.group .puzz .puzz-img .img span{
+    height: 100%;
+    line-height: 1.3rem;
+    float: left;
+    font-size: 0.26rem;
+    color: #FF001F;
+    margin-left: 0.2rem;
+}
+.group .puzz .puzz-img .img p{
+    width: 1.8rem;
+    height: 100%;
+    float: left;
+    font-size: 0.26rem;
+    color: #9B9B9B;
+    text-align: center;
+    margin-left: 0.2rem;
+    line-height: 0.35rem;
+    padding: 0.35rem 0;
+    box-sizing: border-box;
+}
+.group .puzz .puzz-img .img p em{
+    color:#FF001F;
+    font-style:normal;
+}
+.group .puzz .puzz-img .img .btn{
+    width:1.1rem;
+    height:0.6rem;
+    line-height: 0.6rem;
+    color: #fff;
+    font-size: 0.28rem;
+    text-align: center;
+    background:linear-gradient(360deg,rgba(255,146,147,1) 0%,rgba(255,89,90,1) 100%);
+    border-radius:40px;
+    float: right;
+    margin-top: 0.35rem;
+}
+
+/* --------------------------未拼团------------------------ */
+.group .nopuzz{
+    width: 95%;
+    height: 2.4rem;
+    background: #fff;
+    border-radius: 16px;
+    margin: 0.2rem auto;
+    box-shadow:0px 4px 10px 0px rgba(0,0,0,0.2);
+}
+.group .nopuzz h4{
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    color: #FF001F;
+    font-size: 0.31rem;
+    text-align: center;
+}
+.group .nopuzz .btn{
+    width:5.35rem;
+    height:0.8rem;
+    line-height: 0.8rem;
+    background:linear-gradient(360deg,rgba(255,146,147,1) 0%,rgba(255,89,90,1) 100%);
+    border-radius:50px;
+    margin: 0.1rem auto;
+    font-size: 0.28rem;
+    color: #fff;
+    text-align: center;
+}
+/* --------------------------活动规则------------------------ */
+.group .rule{
+    width: 95%;
+    min-height: 3.5rem;
+    background: #3234D6;
+    border-radius: 16px;
+    margin:0.7rem auto;
+    margin-bottom: 0.2rem;
+}
+.group .rule .active{
+    width: 30%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    background: #3234D6;
+    color: #fff;
+    font-size: 0.31rem;
+    text-align: center;
+    float: left;
+    margin: -0.3rem 35%;
+    border-radius: 50px;
+}
+.group .rule p{
+    width: 100%;
+    background: #3234D6;
+    font-size: 0.28rem;
+    color: #fff;
+    padding: 0.2rem 0.3rem;
+    box-sizing: border-box;
+    float: left;
+    border-radius: 16px;
+}
